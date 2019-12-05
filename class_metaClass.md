@@ -106,4 +106,4 @@ meta-class 是必须的，因为它为一个 Class 存储类方法。每个Class
 
 ![图片展示:](https://imlifengfeng.github.io/images/2016/12/128529-b2aeea6630b9514a.jpg)
 
-转载地址：[](https://imlifengfeng.github.io/article/390/)
+[转载地址](https://imlifengfeng.github.io/article/390/)
