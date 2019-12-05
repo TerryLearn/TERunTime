@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E25F42B82398DB9300773C10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42B72398DB9300773C10 /* AppDelegate.m */; };
+		E25F42BB2398DB9300773C10 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42BA2398DB9300773C10 /* SceneDelegate.m */; };
+		E25F42BE2398DB9300773C10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42BD2398DB9300773C10 /* ViewController.m */; };
+		E25F42C12398DB9300773C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25F42BF2398DB9300773C10 /* Main.storyboard */; };
+		E25F42C32398DB9900773C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25F42C22398DB9900773C10 /* Assets.xcassets */; };
+		E25F42C62398DB9900773C10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25F42C42398DB9900773C10 /* LaunchScreen.storyboard */; };
+		E25F42C92398DB9900773C10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42C82398DB9900773C10 /* main.m */; };
+		E25F42D32398DB9900773C10 /* TERunTimeLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42D22398DB9900773C10 /* TERunTimeLearnTests.m */; };
+		E25F42DE2398DB9900773C10 /* TERunTimeLearnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42DD2398DB9900773C10 /* TERunTimeLearnUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E25F42CF2398DB9900773C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25F42AB2398DB9300773C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E25F42B22398DB9300773C10;
+			remoteInfo = TERunTimeLearn;
+		};
+		E25F42DA2398DB9900773C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25F42AB2398DB9300773C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E25F42B22398DB9300773C10;
+			remoteInfo = TERunTimeLearn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E25F42B32398DB9300773C10 /* TERunTimeLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TERunTimeLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25F42B62398DB9300773C10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E25F42B72398DB9300773C10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E25F42B92398DB9300773C10 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E25F42BA2398DB9300773C10 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E25F42BC2398DB9300773C10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E25F42BD2398DB9300773C10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E25F42C02398DB9300773C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E25F42C22398DB9900773C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E25F42C52398DB9900773C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E25F42C72398DB9900773C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25F42C82398DB9900773C10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E25F42CE2398DB9900773C10 /* TERunTimeLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TERunTimeLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25F42D22398DB9900773C10 /* TERunTimeLearnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TERunTimeLearnTests.m; sourceTree = "<group>"; };
+		E25F42D42398DB9900773C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25F42D92398DB9900773C10 /* TERunTimeLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TERunTimeLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25F42DD2398DB9900773C10 /* TERunTimeLearnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TERunTimeLearnUITests.m; sourceTree = "<group>"; };
+		E25F42DF2398DB9900773C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E25F42B02398DB9300773C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25F42CB2398DB9900773C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25F42D62398DB9900773C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E25F42AA2398DB9300773C10 = {
+			isa = PBXGroup;
+			children = (
+				E25F42B52398DB9300773C10 /* TERunTimeLearn */,
+				E25F42D12398DB9900773C10 /* TERunTimeLearnTests */,
+				E25F42DC2398DB9900773C10 /* TERunTimeLearnUITests */,
+				E25F42B42398DB9300773C10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E25F42B42398DB9300773C10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E25F42B32398DB9300773C10 /* TERunTimeLearn.app */,
+				E25F42CE2398DB9900773C10 /* TERunTimeLearnTests.xctest */,
+				E25F42D92398DB9900773C10 /* TERunTimeLearnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E25F42B52398DB9300773C10 /* TERunTimeLearn */ = {
+			isa = PBXGroup;
+			children = (
+				E25F42B62398DB9300773C10 /* AppDelegate.h */,
+				E25F42B72398DB9300773C10 /* AppDelegate.m */,
+				E25F42B92398DB9300773C10 /* SceneDelegate.h */,
+				E25F42BA2398DB9300773C10 /* SceneDelegate.m */,
+				E25F42BC2398DB9300773C10 /* ViewController.h */,
+				E25F42BD2398DB9300773C10 /* ViewController.m */,
+				E25F42BF2398DB9300773C10 /* Main.storyboard */,
+				E25F42C22398DB9900773C10 /* Assets.xcassets */,
+				E25F42C42398DB9900773C10 /* LaunchScreen.storyboard */,
+				E25F42C72398DB9900773C10 /* Info.plist */,
+				E25F42C82398DB9900773C10 /* main.m */,
+			);
+			path = TERunTimeLearn;
+			sourceTree = "<group>";
+		};
+		E25F42D12398DB9900773C10 /* TERunTimeLearnTests */ = {
+			isa = PBXGroup;
+			children = (
+				E25F42D22398DB9900773C10 /* TERunTimeLearnTests.m */,
+				E25F42D42398DB9900773C10 /* Info.plist */,
+			);
+			path = TERunTimeLearnTests;
+			sourceTree = "<group>";
+		};
+		E25F42DC2398DB9900773C10 /* TERunTimeLearnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E25F42DD2398DB9900773C10 /* TERunTimeLearnUITests.m */,
+				E25F42DF2398DB9900773C10 /* Info.plist */,
+			);
+			path = TERunTimeLearnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E25F42B22398DB9300773C10 /* TERunTimeLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25F42E22398DB9900773C10 /* Build configuration list for PBXNativeTarget "TERunTimeLearn" */;
+			buildPhases = (
+				E25F42AF2398DB9300773C10 /* Sources */,
+				E25F42B02398DB9300773C10 /* Frameworks */,
+				E25F42B12398DB9300773C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TERunTimeLearn;
+			productName = TERunTimeLearn;
+			productReference = E25F42B32398DB9300773C10 /* TERunTimeLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E25F42CD2398DB9900773C10 /* TERunTimeLearnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25F42E52398DB9900773C10 /* Build configuration list for PBXNativeTarget "TERunTimeLearnTests" */;
+			buildPhases = (
+				E25F42CA2398DB9900773C10 /* Sources */,
+				E25F42CB2398DB9900773C10 /* Frameworks */,
+				E25F42CC2398DB9900773C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E25F42D02398DB9900773C10 /* PBXTargetDependency */,
+			);
+			name = TERunTimeLearnTests;
+			productName = TERunTimeLearnTests;
+			productReference = E25F42CE2398DB9900773C10 /* TERunTimeLearnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E25F42D82398DB9900773C10 /* TERunTimeLearnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25F42E82398DB9900773C10 /* Build configuration list for PBXNativeTarget "TERunTimeLearnUITests" */;
+			buildPhases = (
+				E25F42D52398DB9900773C10 /* Sources */,
+				E25F42D62398DB9900773C10 /* Frameworks */,
+				E25F42D72398DB9900773C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E25F42DB2398DB9900773C10 /* PBXTargetDependency */,
+			);
+			name = TERunTimeLearnUITests;
+			productName = TERunTimeLearnUITests;
+			productReference = E25F42D92398DB9900773C10 /* TERunTimeLearnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E25F42AB2398DB9300773C10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = offcn_Terry;
+				TargetAttributes = {
+					E25F42B22398DB9300773C10 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					E25F42CD2398DB9900773C10 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = E25F42B22398DB9300773C10;
+					};
+					E25F42D82398DB9900773C10 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = E25F42B22398DB9300773C10;
+					};
+				};
+			};
+			buildConfigurationList = E25F42AE2398DB9300773C10 /* Build configuration list for PBXProject "TERunTimeLearn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E25F42AA2398DB9300773C10;
+			productRefGroup = E25F42B42398DB9300773C10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E25F42B22398DB9300773C10 /* TERunTimeLearn */,
+				E25F42CD2398DB9900773C10 /* TERunTimeLearnTests */,
+				E25F42D82398DB9900773C10 /* TERunTimeLearnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E25F42B12398DB9300773C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25F42C62398DB9900773C10 /* LaunchScreen.storyboard in Resources */,
+				E25F42C32398DB9900773C10 /* Assets.xcassets in Resources */,
+				E25F42C12398DB9300773C10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25F42CC2398DB9900773C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25F42D72398DB9900773C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E25F42AF2398DB9300773C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25F42BE2398DB9300773C10 /* ViewController.m in Sources */,
+				E25F42B82398DB9300773C10 /* AppDelegate.m in Sources */,
+				E25F42C92398DB9900773C10 /* main.m in Sources */,
+				E25F42BB2398DB9300773C10 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25F42CA2398DB9900773C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25F42D32398DB9900773C10 /* TERunTimeLearnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25F42D52398DB9900773C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25F42DE2398DB9900773C10 /* TERunTimeLearnUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E25F42D02398DB9900773C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E25F42B22398DB9300773C10 /* TERunTimeLearn */;
+			targetProxy = E25F42CF2398DB9900773C10 /* PBXContainerItemProxy */;
+		};
+		E25F42DB2398DB9900773C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E25F42B22398DB9300773C10 /* TERunTimeLearn */;
+			targetProxy = E25F42DA2398DB9900773C10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E25F42BF2398DB9300773C10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25F42C02398DB9300773C10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E25F42C42398DB9900773C10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25F42C52398DB9900773C10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E25F42E02398DB9900773C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E25F42E12398DB9900773C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E25F42E32398DB9900773C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LA78A3696S;
+				INFOPLIST_FILE = TERunTimeLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = offcn.TERunTimeLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E25F42E42398DB9900773C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LA78A3696S;
+				INFOPLIST_FILE = TERunTimeLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = offcn.TERunTimeLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E25F42E62398DB9900773C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LA78A3696S;
+				INFOPLIST_FILE = TERunTimeLearnTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = offcn.TERunTimeLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TERunTimeLearn.app/TERunTimeLearn";
+			};
+			name = Debug;
+		};
+		E25F42E72398DB9900773C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LA78A3696S;
+				INFOPLIST_FILE = TERunTimeLearnTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = offcn.TERunTimeLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TERunTimeLearn.app/TERunTimeLearn";
+			};
+			name = Release;
+		};
+		E25F42E92398DB9900773C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LA78A3696S;
+				INFOPLIST_FILE = TERunTimeLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = offcn.TERunTimeLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TERunTimeLearn;
+			};
+			name = Debug;
+		};
+		E25F42EA2398DB9900773C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LA78A3696S;
+				INFOPLIST_FILE = TERunTimeLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = offcn.TERunTimeLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TERunTimeLearn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E25F42AE2398DB9300773C10 /* Build configuration list for PBXProject "TERunTimeLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25F42E02398DB9900773C10 /* Debug */,
+				E25F42E12398DB9900773C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25F42E22398DB9900773C10 /* Build configuration list for PBXNativeTarget "TERunTimeLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25F42E32398DB9900773C10 /* Debug */,
+				E25F42E42398DB9900773C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25F42E52398DB9900773C10 /* Build configuration list for PBXNativeTarget "TERunTimeLearnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25F42E62398DB9900773C10 /* Debug */,
+				E25F42E72398DB9900773C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25F42E82398DB9900773C10 /* Build configuration list for PBXNativeTarget "TERunTimeLearnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25F42E92398DB9900773C10 /* Debug */,
+				E25F42EA2398DB9900773C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E25F42AB2398DB9300773C10 /* Project object */;
+}
