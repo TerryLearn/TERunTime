@@ -16,6 +16,7 @@
 		E25F42C92398DB9900773C10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42C82398DB9900773C10 /* main.m */; };
 		E25F42D32398DB9900773C10 /* TERunTimeLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42D22398DB9900773C10 /* TERunTimeLearnTests.m */; };
 		E25F42DE2398DB9900773C10 /* TERunTimeLearnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42DD2398DB9900773C10 /* TERunTimeLearnUITests.m */; };
+		E25F42ED2398F40700773C10 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42EC2398F40700773C10 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		E25F42D92398DB9900773C10 /* TERunTimeLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TERunTimeLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25F42DD2398DB9900773C10 /* TERunTimeLearnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TERunTimeLearnUITests.m; sourceTree = "<group>"; };
 		E25F42DF2398DB9900773C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25F42EB2398F40700773C10 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		E25F42EC2398F40700773C10 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 			children = (
 				E25F42B62398DB9300773C10 /* AppDelegate.h */,
 				E25F42B72398DB9300773C10 /* AppDelegate.m */,
+				E25F42EB2398F40700773C10 /* Student.h */,
+				E25F42EC2398F40700773C10 /* Student.m */,
 				E25F42B92398DB9300773C10 /* SceneDelegate.h */,
 				E25F42BA2398DB9300773C10 /* SceneDelegate.m */,
 				E25F42BC2398DB9300773C10 /* ViewController.h */,
@@ -269,6 +274,7 @@
 			files = (
 				E25F42BE2398DB9300773C10 /* ViewController.m in Sources */,
 				E25F42B82398DB9300773C10 /* AppDelegate.m in Sources */,
+				E25F42ED2398F40700773C10 /* Student.m in Sources */,
 				E25F42C92398DB9900773C10 /* main.m in Sources */,
 				E25F42BB2398DB9300773C10 /* SceneDelegate.m in Sources */,
 			);
