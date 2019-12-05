@@ -8,6 +8,14 @@
 
 #import "Student.h"
 
+@interface Student ()
+{
+    NSString *_str1;
+}
+@property NSString * str2;
+@property (nonatomic, copy) NSDictionary * dict1;
+@end
+
 @implementation Student
 
 @end

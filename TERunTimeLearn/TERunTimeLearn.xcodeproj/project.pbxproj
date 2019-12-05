@@ -17,6 +17,9 @@
 		E25F42D32398DB9900773C10 /* TERunTimeLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42D22398DB9900773C10 /* TERunTimeLearnTests.m */; };
 		E25F42DE2398DB9900773C10 /* TERunTimeLearnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42DD2398DB9900773C10 /* TERunTimeLearnUITests.m */; };
 		E25F42ED2398F40700773C10 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42EC2398F40700773C10 /* Student.m */; };
+		E25F42EF23990A5600773C10 /* TERunTimeVarAndProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42EE23990A5600773C10 /* TERunTimeVarAndProperty.m */; };
+		E25F42F2239931C000773C10 /* NSObject+JSONExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42F0239931C000773C10 /* NSObject+JSONExtension.m */; };
+		E25F42F52399320800773C10 /* ObjectA.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42F42399320800773C10 /* ObjectA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,11 @@
 		E25F42DF2398DB9900773C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25F42EB2398F40700773C10 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		E25F42EC2398F40700773C10 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		E25F42EE23990A5600773C10 /* TERunTimeVarAndProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TERunTimeVarAndProperty.m; sourceTree = "<group>"; };
+		E25F42F0239931C000773C10 /* NSObject+JSONExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSONExtension.m"; sourceTree = "<group>"; };
+		E25F42F1239931C000773C10 /* NSObject+JSONExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSONExtension.h"; sourceTree = "<group>"; };
+		E25F42F32399320800773C10 /* ObjectA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectA.h; sourceTree = "<group>"; };
+		E25F42F42399320800773C10 /* ObjectA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,10 @@
 		E25F42B52398DB9300773C10 /* TERunTimeLearn */ = {
 			isa = PBXGroup;
 			children = (
+				E25F42F32399320800773C10 /* ObjectA.h */,
+				E25F42F42399320800773C10 /* ObjectA.m */,
+				E25F42F1239931C000773C10 /* NSObject+JSONExtension.h */,
+				E25F42F0239931C000773C10 /* NSObject+JSONExtension.m */,
 				E25F42B62398DB9300773C10 /* AppDelegate.h */,
 				E25F42B72398DB9300773C10 /* AppDelegate.m */,
 				E25F42EB2398F40700773C10 /* Student.h */,
@@ -128,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				E25F42D22398DB9900773C10 /* TERunTimeLearnTests.m */,
+				E25F42EE23990A5600773C10 /* TERunTimeVarAndProperty.m */,
 				E25F42D42398DB9900773C10 /* Info.plist */,
 			);
 			path = TERunTimeLearnTests;
@@ -275,8 +288,10 @@
 				E25F42BE2398DB9300773C10 /* ViewController.m in Sources */,
 				E25F42B82398DB9300773C10 /* AppDelegate.m in Sources */,
 				E25F42ED2398F40700773C10 /* Student.m in Sources */,
+				E25F42F52399320800773C10 /* ObjectA.m in Sources */,
 				E25F42C92398DB9900773C10 /* main.m in Sources */,
 				E25F42BB2398DB9300773C10 /* SceneDelegate.m in Sources */,
+				E25F42F2239931C000773C10 /* NSObject+JSONExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25F42EF23990A5600773C10 /* TERunTimeVarAndProperty.m in Sources */,
 				E25F42D32398DB9900773C10 /* TERunTimeLearnTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
