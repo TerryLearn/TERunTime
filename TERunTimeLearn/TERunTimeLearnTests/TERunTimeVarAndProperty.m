@@ -11,6 +11,8 @@
 #import "ObjectA.h"
 #import <objc/runtime.h>
 #import "NSObject+JSONExtension.h"
+#import "NSArray+Mycategory.h"
+
 @interface TERunTimeVarAndProperty : XCTestCase
 
 @end
@@ -115,6 +117,16 @@
     Student *student = [Student new];
     NSString * str1 = object_getIvar(student, ivar);
     NSLog(@"str:%@",str1);
+}
+
+/**
+ 关联对象测试
+ */
+-(void)testcategoryTest{
+    NSArray *myArray = [[NSArray alloc]init];
+    myArray.blog = @"http://www.imlifengfeng.com";
+    NSLog(@"谁说Category不能添加属性？我用Category为NSArray添加了一个blog属性，blog=%@",myArray.blog);
+    
 }
 
 

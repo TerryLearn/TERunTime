@@ -20,6 +20,7 @@
 		E25F42EF23990A5600773C10 /* TERunTimeVarAndProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42EE23990A5600773C10 /* TERunTimeVarAndProperty.m */; };
 		E25F42F2239931C000773C10 /* NSObject+JSONExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42F0239931C000773C10 /* NSObject+JSONExtension.m */; };
 		E25F42F52399320800773C10 /* ObjectA.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42F42399320800773C10 /* ObjectA.m */; };
+		E25F42F82399375500773C10 /* NSArray+MyCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42F72399375500773C10 /* NSArray+MyCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		E25F42F1239931C000773C10 /* NSObject+JSONExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSONExtension.h"; sourceTree = "<group>"; };
 		E25F42F32399320800773C10 /* ObjectA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectA.h; sourceTree = "<group>"; };
 		E25F42F42399320800773C10 /* ObjectA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectA.m; sourceTree = "<group>"; };
+		E25F42F62399375500773C10 /* NSArray+MyCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MyCategory.h"; sourceTree = "<group>"; };
+		E25F42F72399375500773C10 /* NSArray+MyCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MyCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				E25F42F42399320800773C10 /* ObjectA.m */,
 				E25F42F1239931C000773C10 /* NSObject+JSONExtension.h */,
 				E25F42F0239931C000773C10 /* NSObject+JSONExtension.m */,
+				E25F42F62399375500773C10 /* NSArray+MyCategory.h */,
+				E25F42F72399375500773C10 /* NSArray+MyCategory.m */,
 				E25F42B62398DB9300773C10 /* AppDelegate.h */,
 				E25F42B72398DB9300773C10 /* AppDelegate.m */,
 				E25F42EB2398F40700773C10 /* Student.h */,
@@ -291,6 +296,7 @@
 				E25F42F52399320800773C10 /* ObjectA.m in Sources */,
 				E25F42C92398DB9900773C10 /* main.m in Sources */,
 				E25F42BB2398DB9300773C10 /* SceneDelegate.m in Sources */,
+				E25F42F82399375500773C10 /* NSArray+MyCategory.m in Sources */,
 				E25F42F2239931C000773C10 /* NSObject+JSONExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
