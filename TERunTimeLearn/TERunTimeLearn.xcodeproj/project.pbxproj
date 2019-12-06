@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E248C3792399EC3100224706 /* TERunTimeFuncAndMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E248C3782399EC3100224706 /* TERunTimeFuncAndMessage.m */; };
 		E25F42B82398DB9300773C10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42B72398DB9300773C10 /* AppDelegate.m */; };
 		E25F42BB2398DB9300773C10 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42BA2398DB9300773C10 /* SceneDelegate.m */; };
 		E25F42BE2398DB9300773C10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42BD2398DB9300773C10 /* ViewController.m */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E248C3782399EC3100224706 /* TERunTimeFuncAndMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TERunTimeFuncAndMessage.m; sourceTree = "<group>"; };
 		E25F42B32398DB9300773C10 /* TERunTimeLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TERunTimeLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25F42B62398DB9300773C10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E25F42B72398DB9300773C10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			children = (
 				E25F42D22398DB9900773C10 /* TERunTimeLearnTests.m */,
 				E25F42EE23990A5600773C10 /* TERunTimeVarAndProperty.m */,
+				E248C3782399EC3100224706 /* TERunTimeFuncAndMessage.m */,
 				E25F42D42398DB9900773C10 /* Info.plist */,
 			);
 			path = TERunTimeLearnTests;
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E25F42EF23990A5600773C10 /* TERunTimeVarAndProperty.m in Sources */,
+				E248C3792399EC3100224706 /* TERunTimeFuncAndMessage.m in Sources */,
 				E25F42D32398DB9900773C10 /* TERunTimeLearnTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
