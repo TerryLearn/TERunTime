@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E248C3792399EC3100224706 /* TERunTimeFuncAndMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E248C3782399EC3100224706 /* TERunTimeFuncAndMessage.m */; };
+		E248C37B239A04AA00224706 /* TEMethod_SWizzl.m in Sources */ = {isa = PBXBuildFile; fileRef = E248C37A239A04AA00224706 /* TEMethod_SWizzl.m */; };
+		E248C37E239A04E900224706 /* UIViewController+swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E248C37D239A04E900224706 /* UIViewController+swizzling.m */; };
 		E25F42B82398DB9300773C10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42B72398DB9300773C10 /* AppDelegate.m */; };
 		E25F42BB2398DB9300773C10 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42BA2398DB9300773C10 /* SceneDelegate.m */; };
 		E25F42BE2398DB9300773C10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F42BD2398DB9300773C10 /* ViewController.m */; };
@@ -43,6 +45,9 @@
 
 /* Begin PBXFileReference section */
 		E248C3782399EC3100224706 /* TERunTimeFuncAndMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TERunTimeFuncAndMessage.m; sourceTree = "<group>"; };
+		E248C37A239A04AA00224706 /* TEMethod_SWizzl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEMethod_SWizzl.m; sourceTree = "<group>"; };
+		E248C37C239A04E900224706 /* UIViewController+swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+swizzling.h"; sourceTree = "<group>"; };
+		E248C37D239A04E900224706 /* UIViewController+swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+swizzling.m"; sourceTree = "<group>"; };
 		E25F42B32398DB9300773C10 /* TERunTimeLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TERunTimeLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25F42B62398DB9300773C10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E25F42B72398DB9300773C10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -124,6 +129,8 @@
 				E25F42F42399320800773C10 /* ObjectA.m */,
 				E25F42F1239931C000773C10 /* NSObject+JSONExtension.h */,
 				E25F42F0239931C000773C10 /* NSObject+JSONExtension.m */,
+				E248C37C239A04E900224706 /* UIViewController+swizzling.h */,
+				E248C37D239A04E900224706 /* UIViewController+swizzling.m */,
 				E25F42F62399375500773C10 /* NSArray+MyCategory.h */,
 				E25F42F72399375500773C10 /* NSArray+MyCategory.m */,
 				E25F42B62398DB9300773C10 /* AppDelegate.h */,
@@ -149,6 +156,7 @@
 				E25F42D22398DB9900773C10 /* TERunTimeLearnTests.m */,
 				E25F42EE23990A5600773C10 /* TERunTimeVarAndProperty.m */,
 				E248C3782399EC3100224706 /* TERunTimeFuncAndMessage.m */,
+				E248C37A239A04AA00224706 /* TEMethod_SWizzl.m */,
 				E25F42D42398DB9900773C10 /* Info.plist */,
 			);
 			path = TERunTimeLearnTests;
@@ -298,6 +306,7 @@
 				E25F42ED2398F40700773C10 /* Student.m in Sources */,
 				E25F42F52399320800773C10 /* ObjectA.m in Sources */,
 				E25F42C92398DB9900773C10 /* main.m in Sources */,
+				E248C37E239A04E900224706 /* UIViewController+swizzling.m in Sources */,
 				E25F42BB2398DB9300773C10 /* SceneDelegate.m in Sources */,
 				E25F42F82399375500773C10 /* NSArray+MyCategory.m in Sources */,
 				E25F42F2239931C000773C10 /* NSObject+JSONExtension.m in Sources */,
@@ -308,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E248C37B239A04AA00224706 /* TEMethod_SWizzl.m in Sources */,
 				E25F42EF23990A5600773C10 /* TERunTimeVarAndProperty.m in Sources */,
 				E248C3792399EC3100224706 /* TERunTimeFuncAndMessage.m in Sources */,
 				E25F42D32398DB9900773C10 /* TERunTimeLearnTests.m in Sources */,
